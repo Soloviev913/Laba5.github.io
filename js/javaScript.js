@@ -19,7 +19,7 @@ function validValue() {
 
     if (countGen.value > 50) {
         countGen.value = "";
-        alert("Значение должно быть < 50");
+        alert("Значение должно быть <= 50");
     }
 }
 
