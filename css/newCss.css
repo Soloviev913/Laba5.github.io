@@ -1,0 +1,35 @@
+.cap {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    padding-bottom: 10px;
+}
+
+.square {
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background: red;
+    transition: left 3s linear, top 3s linear;
+}
+
+#task {
+    width:75%;
+}
+
+#gen {
+    display:grid;
+    align-items: center;
+    margin-left:35%;
+    margin-right: 35%;
+}
+
+#area {
+    position:relative;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    border: solid 1px black;
+}
